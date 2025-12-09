@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ml-pipeline-builder
+    runtime: docker
+    repo: https://github.com/YashodipMore/ml-pipeline-builder
+    branch: main
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 8080
