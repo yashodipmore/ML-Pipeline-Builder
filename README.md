@@ -1,292 +1,193 @@
 # RetailSync AI - Demo Script (5 Minutes)
 
-> **Objective:** Show the complete platform practically - from problem to solution.
-> **Tip:** Speak confidently, show don't tell, keep energy high!
+---
+
+## OPENING - Attention Grabber (30 sec)
+
+**[Screen: Black slide with just a question]**
+
+> "What if I told you... that creating a professional retail ad could take less time than making a cup of coffee?"
+
+**[Pause 2 seconds]**
+
+> "Hi everyone! I'm [Name] from Team Sarthak."
+
+> "Today, I'm not going to give you a presentation. I'm going to show you something that will change how you think about retail advertising forever."
 
 ---
 
-## TIMER BREAKDOWN
+## THE PROBLEM - Make Them Feel It (45 sec)
 
-| Section | Time | What to Show |
-|---------|------|--------------|
-| Hook + Problem | 0:00 - 0:45 | Stats, pain points |
-| Solution Intro | 0:45 - 1:00 | Platform intro |
-| Tech Overview | 1:00 - 1:40 | Google Auth, APIs, Stack |
-| Live Demo | 1:40 - 4:15 | Editor walkthrough |
-| Impact & Close | 4:15 - 5:00 | Results, CTA |
+**[Screen: Show Tesco website or store image]**
 
----
+> "Picture this: You're a Tesco marketing manager. Tomorrow is a flash sale. You need 50 new ads. Today."
 
-## PART 1: HOOK + PROBLEM (45 seconds)
+> "You call your design team. They say: 'Two weeks minimum.'"
 
-### Opening Line (Powerful hook)
+**[Pause - Let it sink in]**
 
-> "Imagine you're a Tesco marketing manager. You need 50 promotional ads by tomorrow for a flash sale. Your designer says it'll take 2 weeks. What do you do?"
+> "This is the reality:"
+> - "Every single ad takes 4 to 6 HOURS"
+> - "Cost? 2,000 to 5,000 rupees each"
+> - "And here's the worst part - 30% get rejected for brand violations"
 
-### The Problem (Show stats)
-
-> "This is the reality of retail media today:"
-> - "4 to 6 hours to create ONE advertisement"
-> - "30% of ads fail brand compliance on first review"
-> - "100% dependency on designers who are always overloaded"
-> - "Cost? 2000 to 5000 rupees per ad"
-
-> "For a company like Tesco with 80,000 products... this simply doesn't scale."
-
-**[PAUSE - Let it sink in]**
+> "Tesco has 80,000 products. This old way? It simply... doesn't... work."
 
 ---
 
-## PART 2: SOLUTION INTRO (30 seconds)
+## THE SOLUTION - The Big Reveal (20 sec)
 
-### Transition
+> "So we asked ourselves one question:"
 
-> "What if you could create that same ad in under 5 minutes... without any design skills?"
+> "What if ANYONE could create a professional ad... in under 5 minutes... using just their voice?"
 
-> "Introducing RetailSync AI - an AI-powered platform that transforms how retail ads are created."
+**[Screen: Show RetailSync AI landing page]**
 
-**[SHOW: Landing page briefly - 5 seconds]**
-
-> "Let me show you exactly how it works."
-
-**[CLICK: "Login with Google" button]**
+> "This is RetailSync AI. Let me show you the magic."
 
 ---
 
-## PART 2.5: TECH OVERVIEW (40 seconds)
+## LIVE DEMO - Show The Magic (2.5 min)
 
-### Authentication
+### Login (10 sec)
 
-> "We use Google OAuth for secure authentication - same login you use for Gmail, one click and you're in."
+**[Click Login with Google]**
 
-**[SHOW: Google login popup → Dashboard]**
+> "One-click Google login. Secure. Simple. You're in."
 
-### Tech Stack Quick Mention
+### Enter Editor (15 sec)
 
-> "Let me quickly tell you what powers this platform:"
+**[Show Editor]**
 
-> "Frontend is built on Next.js 16 with React 19 - latest tech stack. The canvas editor uses Fabric.js - same library used by Canva."
+> "This is our AI-powered editor. Left side - tools. Center - canvas. Right side - this is where the magic happens - our AI Agent."
 
-> "For AI, we're using Groq's LLaMA 3.3 70 billion parameter model - one of the fastest LLMs available. Response time? Under half a second."
+> "Canvas is already set to Tesco's standard 728x90 banner format."
 
-> "Background removal? Remove.bg API - industry standard. Stock images? Pexels API - millions of royalty-free images."
+### Background Removal - WOW Moment (30 sec)
 
-> "Database is MongoDB Atlas, deployed on Vercel. Production ready, scalable architecture."
+**[Upload a product image with messy background]**
 
-**[CLICK: "Create Ad" button - Enter Editor]**
+> "Let me upload a product photo. See this background? Messy, right?"
 
-> "Now let's see it in action."
+**[Click Remove Background]**
 
----
+> "One click..."
 
-## PART 3: LIVE DEMO - EDITOR (3 minutes)
+**[Wait for result]**
 
-### 3.1 Editor Overview (20 seconds)
+> "BOOM. Clean. Professional. This alone saves 20 minutes of Photoshop work."
 
-**[SHOW: Full editor interface]**
+### AI Agent - The Star (60 sec)
 
-> "This is our canvas editor. On the left - your tools and layers. Center - the canvas. Right side - AI Agent and compliance panel."
+**[Focus on AI Panel]**
 
-> "Notice the canvas size - 728x90 - this is a standard Tesco leaderboard banner format."
+> "Now watch this. I'm going to design using just my words."
 
-> "We also have templates inside, but let me show you the real power - creating from scratch with AI."
+**[Type: "add red background"]**
 
----
+> "Red background..."
 
-### 3.2 Adding Product Image (30 seconds)
+**[Type: "add text MEGA SALE in white"]**
 
-**[ACTION: Click Upload or drag image]**
+> "Add some text..."
 
-> "Let's create a promotional ad for Tesco's Finest Coffee."
+**[Type: "add yellow circle"]**
 
-**[UPLOAD: A product image with background]**
+> "A design element..."
 
-> "I've uploaded my product image. But see this messy background? One click..."
+> "See what's happening? No menus. No tutorials. No design degree. Just... talk to it."
 
-**[ACTION: Click "Remove Background" button]**
-
-> "...and our AI removes it instantly using Remove.bg. Clean, professional, ready to use."
-
-**[SHOW: Before/after - Background removed]**
-
-> "This alone saves 15-20 minutes of manual editing in Photoshop."
-
----
-
-### 3.3 AI Agent - The Star Feature (60 seconds)
-
-**[FOCUS: AI Copilot Panel on right]**
-
-> "Now here's where it gets exciting. This is our AI Agent - you just talk to it naturally."
-
-**[TYPE in AI Agent: "add red background"]**
-
-> "I want a red background... just type it."
-
-**[SHOW: Red background appears]**
-
-> "Done. Let me add some text..."
-
-**[TYPE: "add text PREMIUM BLEND in white"]**
-
-> "Premium Blend... in white."
-
-**[SHOW: Text appears]**
-
-**[TYPE: "add yellow circle"]**
-
-> "Let me add a circle for some design element..."
-
-**[SHOW: Yellow circle appears]**
-
-**[TYPE: "add blue rectangle"]**
-
-> "And a rectangle..."
-
-**[SHOW: Rectangle appears]**
-
-> "See how natural this is? No menus, no tutorials, no design skills. Just describe what you want."
-
-**[TYPE: "delete selected"]**
+**[Type: "delete selected"]**
 
 > "Don't like something? Just say delete."
 
-**[SHOW: Object deleted]**
+> "We have 70+ commands. Shapes, text, effects, filters - everything through conversation."
 
-> "70+ commands available - shapes, text, effects, backgrounds - all through simple conversation."
+### Stock Images (20 sec)
 
----
+**[Click Stock Images]**
 
-### 3.4 Stock Images - Pexels Integration (30 seconds)
+> "Need images? Millions of royalty-free photos from Pexels. Built right in."
 
-**[ACTION: Click Stock Images / Pexels panel]**
+**[Search "coffee" and add image]**
 
-> "Need images? We've integrated Pexels - millions of royalty-free images."
+> "Search, click, done. On your canvas."
 
-**[TYPE in search: "coffee beans"]**
+### Export (15 sec)
 
-> "Search for coffee beans..."
+**[Click Export]**
 
-**[SHOW: Results appear]**
+> "Happy with your ad? Export in any format - PNG, JPEG, WebP. Production ready."
 
-**[CLICK: Add an image to canvas]**
-
-> "One click - directly on canvas. No downloading, no importing, no licensing worries."
-
-**[OPTIONAL: "send to back" command to AI]**
+> "That's it. From zero to finished ad. Under 3 minutes."
 
 ---
 
-### 3.5 Final Touches with AI (20 seconds)
+## TECH CREDIBILITY (30 sec)
 
-**[TYPE: "align center"]**
+> "Quick tech overview for the curious minds:"
 
-> "Let me align everything..."
+> "Frontend: Next.js 16, React 19 - bleeding edge."
 
-**[TYPE: "add border to canvas"]**
+> "AI: Groq's LLaMA 3.3 - 70 billion parameters, response time under half a second."
 
-> "Add a subtle border..."
+> "Canvas: Fabric.js - same technology Canva uses."
 
-**[SHOW: Professional looking ad]**
-
-> "In under 3 minutes, we have a professional, retail-ready advertisement."
+> "Plus Remove.bg, Pexels API, MongoDB Atlas, Google OAuth - production-grade stack."
 
 ---
 
-### 3.6 Export (20 seconds)
+## THE IMPACT - Numbers That Matter (30 sec)
 
-**[ACTION: Click Export button OR type "export png"]**
+> "Let's talk results:"
 
-> "Export in any format - PNG, JPEG, WebP. High quality, ready for deployment."
+> "Traditional way: 4 to 6 hours. Our way: Under 5 minutes. That's 95% faster."
 
-**[SHOW: Download happens]**
+> "Cost: From thousands to hundreds. 90% cheaper."
 
-> "That's it. From blank canvas to finished ad. No Photoshop. No designer. No waiting."
+> "Compliance: 98% pass rate on first try."
+
+> "And the best part? You don't need a designer anymore."
 
 ---
 
-## PART 4: IMPACT & CLOSE (45 seconds)
+## CLOSING - Memorable Finish (30 sec)
 
-### Quick Feature Highlights (20 seconds)
+> "For Tesco's scale - 80,000 products, millions of customers, endless campaigns..."
 
-> "Before we wrap up, let me quickly mention - the platform also has:"
-> - "Pre-built templates for quick starts"
-> - "Layer management for complex designs"
-> - "Keyboard shortcuts for power users"
-> - "Real-time compliance checking"
+> "RetailSync AI isn't just a tool. It's the only way to keep up."
 
-> "Everything a marketing team needs, built into one platform."
+**[Pause]**
 
-### Results Comparison (25 seconds)
+> "We're not replacing designers. We're giving EVERYONE the power to design."
 
-> "Now let's talk results. Traditional approach - 4 to 6 hours per ad, 2000 to 5000 rupees cost, you always need a designer, and only 70% pass compliance first time."
-
-> "With RetailSync AI? Under 5 minutes. 200 to 500 rupees. No designer needed. And 98% compliance rate."
-
-> "That's 95% time saved. 90% cost reduced."
-
-### Scale Statement
-
-> "For Tesco's scale - 80,000 SKUs, seasonal campaigns, personalized offers - RetailSync AI doesn't just help... it's the only way to keep up."
-
-### Closing Line (Memorable)
-
-> "We're not replacing designers. We're giving everyone the power to design."
+**[Final slide: RetailSync AI logo]**
 
 > "RetailSync AI - Create ads in minutes, not days."
 
-**[SHOW: Team Sarthak logo/slide]**
+> "Thank you. We're Team Sarthak from R.C. Patel Institute of Technology, Shirpur."
 
-> "Thank you. We're Team Sarthak from"
-
----
-
-## BACKUP COMMANDS (If something goes wrong)
-
-Quick recovery commands for AI Agent:
-
-| If you need... | Type this |
-|----------------|-----------|
-| Undo mistake | `undo` |
-| Clear canvas | `clear canvas` |
-| Delete selected | `delete` |
-| Red background | `red background` |
-| Add text | `add text YOUR TEXT` |
-| Add circle | `add red circle` |
-| Remove BG | Click the button |
+> "Any questions?"
 
 ---
 
-## PRE-DEMO CHECKLIST
+## BACKUP - If Things Go Wrong
 
-- [ ] Browser: Chrome (full screen, no bookmarks bar)
-- [ ] Tab: Editor page ready
-- [ ] Product image: Downloaded and ready to upload
-- [ ] Internet: Stable (for Remove.bg & Pexels)
-- [ ] Audio: Clear, no background noise
-- [ ] Screen recording: 1080p minimum
+| Problem | Quick Fix |
+|---------|-----------|
+| AI not responding | "Let me refresh the AI connection" - Reload page |
+| Remove BG slow | "Processing on cloud servers" - Wait or skip |
+| Any error | "Let me show you another feature" - Switch to stock images |
 
----
+## KEY LINES TO REMEMBER
 
-## KEY PHRASES TO REMEMBER
-
-1. **"No design skills needed"**
-2. **"Just describe what you want"**
-3. **"One click background removal"**
-4. **"70+ natural language commands"**
-5. **"5 minutes, not 5 hours"**
-6. **"95% faster, 90% cheaper"**
+1. "Less time than making coffee"
+2. "What if ANYONE could create..."
+3. "BOOM. Clean. Professional."
+4. "No menus. No tutorials. No design degree."
+5. "95% faster. 90% cheaper."
+6. "Create ads in minutes, not days."
 
 ---
 
-## ENERGY TIPS
-
-- Start strong - hook them in first 10 seconds
-- Show excitement when AI responds
-- Pause after impressive moments
-- End with confidence
-- Smile - it shows in your voice!
-
----
-
-**Good luck Team Sarthak! You've got this!**
+**GOOD LUCK TEAM SARTHAK! 🏆**
